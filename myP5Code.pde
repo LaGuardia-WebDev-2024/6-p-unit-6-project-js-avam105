@@ -12,7 +12,7 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
-
+//fire
 var renameThis = function(x,y,sx,sy,r,fc,sc,sw){
  /* Created with https://www.khanacademy.org/cs/curvevertexxy/4922655547326464 by Troy Cook */
     pushMatrix();
@@ -57,11 +57,14 @@ ellipse(230, 150, 65, 45);
 strokeWeight(2);
 fill(237, 227, 213);
 stroke(0,0,0)
+
+//right eye
 ellipse(150, 90, 70, 90);
 ellipse(90, 100, 70, 90);
 fill(38, 35, 31)
 ellipse(170, 100, 43, 60);
 ellipse(95, 110, 43, 58);
+//cup
   fill(219, 204, 162)
 quad(230, 310, 330, 310, 325, 380, 235, 380);
 
